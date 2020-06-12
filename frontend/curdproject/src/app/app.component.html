@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div style="padding: 20px;">
+  <h1 style="color: blue">customers Data</h1>
+  
+  
+  <nav>
+    <a routerLink="customer" class="btn btn-primary active" role="button" routerLinkActive="active">Customers</a>
+    <a routerLink="add" class="btn btn-primary active m-2" role="button" routerLinkActive="active">Add</a>
+    <a routerLink="findbyage" class="btn btn-primary active" role="button" routerLinkActive="active">Search</a>
+    <!-- <a routerLink="customerdetails" class="btn btn-dark active ml-2" role="button" routerLinkActive="active">CustomerDetails</a> -->
+  </nav>
+  
+  <router-outlet></router-outlet>
+  <br><br>
+  <app-footer></app-footer>
+</div>
